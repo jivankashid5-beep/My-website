@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+
+        body{
+            background-color:#eeeeee;
+            font-family:Arial;
+            margin:40px;
+        }
+
+        h1{
+            text-align:center;
+            color:darkblue;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input,select,textarea{
+            width:100%;
+            padding:8px;
+            margin-top:5px;
+            margin-bottom:15px;
+        }
+
+        .gender{
+            width:auto;
+        }
+
+        button{
+            background-color:darkblue;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:40px;
+        }
+
+        table,th,td{
+            border:1px solid black;
+        }
+
+        th{
+            background-color:darkblue;
+            color:white;
+            padding:10px;
+        }
+
+        td{
+            text-align:center;
+            padding:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter phone number">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Select Course</label>
+
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>React</option>
+        </select>
+
+        <label>Gender</label><br>
+
+        <input type="radio" name="gender" class="gender"> Male
+
+        <input type="radio" name="gender" class="gender"> Female
+
+        <br><br>
+
+        <label>Address</label>
+
+        <textarea rows="4" placeholder="Enter address"></textarea>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h1>Student Data Table</h1>
+
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Rahul</td>
+            <td>HTML</td>
+            <td>Mumbai</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Sneha</td>
+            <td>CSS</td>
+            <td>Pune</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Amit</td>
+            <td>JavaScript</td>
+            <td>Nashik</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Priya</td>
+            <td>React</td>
+            <td>Nagpur</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
