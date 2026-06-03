@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Position Example</title>
+
+    <style>
+        body{
+            height:1500px;
+        }
+
+        /* Relative Position */
+        .relative{
+            position: relative;
+            left: 50px;
+            top: 20px;
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+
+        /* Absolute Position */
+        .absolute{
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen;
+            border: 2px solid black;
+        }
+
+        /* Fixed Position */
+        .fixed{
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            border: 2px solid black;
+        }
+
+        /* Sticky Position (constant jaisa effect) */
+        .sticky{
+            position: sticky;
+            top: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: orange;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sticky">
+        Sticky Position Example
+    </div>
+
+    <div class="relative">
+        Relative Position
+    </div>
+
+    <div class="absolute">
+        Absolute Position
+    </div>
+
+    <div class="fixed">
+        Fixed Position
+    </div>
+
+</body>
+</html>
